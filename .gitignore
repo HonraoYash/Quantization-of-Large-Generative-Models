@@ -1,0 +1,10 @@
+
+# flux module ignores
+flux/env/
+flux/__pycache__/
+*.pyc
+
+# flux module ignores
+flux/env/
+flux/__pycache__/
+*.pyc
