@@ -1,0 +1,10 @@
+# Virtual environments - DO NOT COMMIT
+venv/
+venv311/
+env/
+ENV/
+*.pyc
+__pycache__/
+
+# OS files
+.DS_Store
