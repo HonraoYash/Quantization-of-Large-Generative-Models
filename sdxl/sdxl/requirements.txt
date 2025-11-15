@@ -1,0 +1,9 @@
+diffusers
+huggingface_hub
+safetensors.torch
+bitsandbytes
+transformers
+onnx
+onnxruntime
+optimum.onnxruntime
+torch2trt
