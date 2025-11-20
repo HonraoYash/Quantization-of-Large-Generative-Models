@@ -1,0 +1,9 @@
+{
+  "out_fp16.txt": {
+    "file": "out_fp16.txt",
+    "chars": 706,
+    "words": 112,
+    "distinct1": 0.594,
+    "distinct2": 0.8939
+  }
+}
