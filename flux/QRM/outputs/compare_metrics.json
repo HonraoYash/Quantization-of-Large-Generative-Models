@@ -1,0 +1,23 @@
+{
+  "out_bnb-int8.txt": {
+    "file": "out_bnb-int8.txt",
+    "chars": 661,
+    "words": 108,
+    "distinct1": 0.6466,
+    "distinct2": 0.9242
+  },
+  "out_bnb-nf4.txt": {
+    "file": "out_bnb-nf4.txt",
+    "chars": 656,
+    "words": 110,
+    "distinct1": 0.6214,
+    "distinct2": 0.9281
+  },
+  "out_fp16.txt": {
+    "file": "out_fp16.txt",
+    "chars": 686,
+    "words": 111,
+    "distinct1": 0.5985,
+    "distinct2": 0.8855
+  }
+}
