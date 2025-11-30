@@ -1,0 +1,8 @@
+{
+  "latency_s": 4.2033117869868875,
+  "gen_tokens": 128,
+  "tokens_per_s": 30.45217830289859,
+  "gpu_peak_mem": "5.9GB",
+  "output": "Explain rectified flow in FLUX to a CS undergrad. Sure! Rectified Flow (RF) is a concept used in the Flux library, which is a popular deep learning framework for building and training neural networks. Let's break it down in a way that a computer science undergraduate might understand.\n\n### What is Rectified Flow?\n\nRectified Flow is a type of normalization technique used in neural networks, particularly in the context of generative models like Variational Autoencoders (VAEs). The main idea behind Rectified Flow is to apply a rectifier function to the data before passing it through a transformation layer. This helps in making the data more suitable for modeling by ensuring that all values are positive",
+  "model_footprint": "5.7GB"
+}

@@ -1,0 +1,8 @@
+{
+  "latency_s": 7.264588819816709,
+  "gen_tokens": 128,
+  "tokens_per_s": 17.619717120236068,
+  "gpu_peak_mem": "2.0GB",
+  "output": "Explain rectified flow in FLUX to a CS undergrad. Sure! Let's break down the concept of Rectified Flow (ReLU) in the context of Flux, which is a popular deep learning library for PyTorch.\n\n### What is ReLU?\n\nReLU (Rectified Linear Unit) is a type of activation function commonly used in neural networks. It introduces non-linearity into the model by setting all negative values in the input to zero. This helps the network learn more complex patterns and improves its performance on various tasks.\n\n### How Does ReLU Work?\n\n1. **Input**: The input to the ReLU function is typically a tensor (a multi-dimensional array) representing the output of a previous",
+  "model_footprint": "1.9GB"
+}
