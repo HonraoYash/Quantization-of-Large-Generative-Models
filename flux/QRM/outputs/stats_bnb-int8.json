@@ -1,8 +1,0 @@
-{
-  "latency_s": 25.31380737107247,
-  "gen_tokens": 128,
-  "tokens_per_s": 5.056528957642022,
-  "gpu_peak_mem": "3.3GB",
-  "output": "Explain rectified flow in FLUX to a CS undergrad. Rectified flow is a concept used in the Flux library, which is a popular deep learning framework for Python. To explain it to a CS undergraduate, let's break down the key points:\n\n1. Context: In neural networks, especially recurrent neural networks (RNNs), we often deal with sequences of data like time series or text.\n\n2. Problem: When processing these sequences, RNNs can suffer from vanishing/exploding gradient problems, making it difficult to learn long-term dependencies.\n\n3. Rectified Flow: This is a technique introduced by the Flux library to address this issue.\n\n4. Idea: Instead of using traditional",
-  "model_footprint": "3.2GB"
-}
