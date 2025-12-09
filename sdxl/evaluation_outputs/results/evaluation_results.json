@@ -1,0 +1,31 @@
+{
+  "config": {
+    "image_size": 512,
+    "num_prompts": 5,
+    "api_provider": "huggingface",
+    "api_steps": 30,
+    "local_steps": 4,
+    "seed": 42
+  },
+  "baseline": {
+    "avg_time": 3.253828763961792,
+    "total_time": 16.26914381980896,
+    "source": "API (huggingface)",
+    "steps": 30
+  },
+  "fp16": {
+    "avg_time": 11.472127008438111,
+    "total_time": 57.36063504219055,
+    "source": "Local (Lightning FP16)",
+    "steps": 4
+  },
+  "metrics": {
+    "psnr_mean": 5.296857309341431,
+    "psnr_std": 0.9866678896067567,
+    "ssim_mean": 0.03344820952042937,
+    "ssim_std": 0.04557420870714527,
+    "lpips_mean": 1.0422028660774232,
+    "lpips_std": 0.049304643422856766,
+    "fid": 849.0926513671875
+  }
+}

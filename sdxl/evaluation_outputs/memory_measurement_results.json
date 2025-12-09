@@ -1,0 +1,97 @@
+{
+  "model_info": {
+    "model_path": "./sdxl/quantized_models/sdxl_lightning_4step_mps_fp16",
+    "device": "mps",
+    "precision": "float16"
+  },
+  "model_loading": {
+    "model_size_in_memory_gb": 6.461221933364868,
+    "load_time_seconds": 27.333569765090942
+  },
+  "inference": {
+    "image_size": 512,
+    "num_steps": 4,
+    "avg_inference_time_seconds": 8.390090068181356,
+    "avg_inference_overhead_gb": 0.0043981075286865234,
+    "max_peak_memory_gb": 6.474416255950928,
+    "total_memory_required_gb": 6.465620040893555
+  },
+  "optimizations": {
+    "no_optimization": {
+      "inference_time_seconds": 6.248940944671631,
+      "peak_memory_gb": 6.479689121246338,
+      "inference_overhead_gb": 0.005272865295410156
+    },
+    "attention_slicing": {
+      "inference_time_seconds": 6.834398031234741,
+      "peak_memory_gb": 6.481720209121704,
+      "inference_overhead_gb": 0.002031087875366211
+    },
+    "vae_slicing": {
+      "inference_time_seconds": 4.824393033981323,
+      "peak_memory_gb": 6.482177257537842,
+      "inference_overhead_gb": 0.0004570484161376953
+    },
+    "both_optimizations": {
+      "inference_time_seconds": 4.433197021484375,
+      "peak_memory_gb": 6.482786417007446,
+      "inference_overhead_gb": 0.0006091594696044922
+    }
+  },
+  "detailed_inference_results": [
+    {
+      "prompt_length": 5,
+      "inference_time_seconds": 14.27146029472351,
+      "before": {
+        "ram_used_gb": 0.25408935546875,
+        "ram_percent": 75.5,
+        "mps_allocated_gb": 6.461221933364868,
+        "mps_reserved_gb": 7.1176300048828125
+      },
+      "after": {
+        "ram_used_gb": 0.14642333984375,
+        "ram_percent": 93.0,
+        "mps_allocated_gb": 6.4665608406066895,
+        "mps_reserved_gb": 9.301422119140625
+      },
+      "peak_memory_gb": 6.4665608406066895,
+      "inference_overhead_gb": 0.005338907241821289
+    },
+    {
+      "prompt_length": 37,
+      "inference_time_seconds": 4.7760279178619385,
+      "before": {
+        "ram_used_gb": 0.34857177734375,
+        "ram_percent": 81.5,
+        "mps_allocated_gb": 6.4665608406066895,
+        "mps_reserved_gb": 7.277984619140625
+      },
+      "after": {
+        "ram_used_gb": 0.3867340087890625,
+        "ram_percent": 83.7,
+        "mps_allocated_gb": 6.469894170761108,
+        "mps_reserved_gb": 9.301422119140625
+      },
+      "peak_memory_gb": 6.469894170761108,
+      "inference_overhead_gb": 0.0033333301544189453
+    },
+    {
+      "prompt_length": 110,
+      "inference_time_seconds": 6.122781991958618,
+      "before": {
+        "ram_used_gb": 0.3592529296875,
+        "ram_percent": 76.1,
+        "mps_allocated_gb": 6.469894170761108,
+        "mps_reserved_gb": 7.293609619140625
+      },
+      "after": {
+        "ram_used_gb": 0.106201171875,
+        "ram_percent": 88.2,
+        "mps_allocated_gb": 6.474416255950928,
+        "mps_reserved_gb": 9.301422119140625
+      },
+      "peak_memory_gb": 6.474416255950928,
+      "inference_overhead_gb": 0.004522085189819336
+    }
+  ]
+}

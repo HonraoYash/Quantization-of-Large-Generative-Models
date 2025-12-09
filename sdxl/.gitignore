@@ -9,8 +9,6 @@ __pycache__/
 # OS files
 .DS_Store
 quantized_models/
-generated_images/
-evaluation_outputs/
 venv/
 __pycache__/
 *.safetensors
