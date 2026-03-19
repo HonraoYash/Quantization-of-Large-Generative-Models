@@ -1,4 +1,3 @@
-
 # Quantization of Large Generative Models
 
 This repository contains the code, experiments, and artifacts for our course project on **quantizing large generative models**. We study how far we can push quantization before models like SDXL, Kandinsky, FLUX.1-schnell, and ParlerTTS “break” visually or perceptually, and we propose a lightweight **Timestep-Aware Quantization (TAQ)** strategy that adjusts activation bit-width across diffusion / flow steps.
@@ -100,8 +99,8 @@ The notebooks are written to be self-contained: each one loads the model, applie
 
 ## Contributors
 
-- **Hitha Magadi Vijayanand** – diffusion literature review, SDXL experiments, evaluation scripts  
-- **Yash Honrao** – repository structure, Kandinsky experiments, metrics logging  
+- **Yash Honrao** – repository structure, Kandinsky experiments, metrics logging, SDXL experiments, evaluation scripts 
+- **Hitha Magadi Vijayanand** – diffusion literature review 
 - **Dishant Parag Zaveri** – FLUX.1-schnell GGUF pipeline, HPRC integration, FLUX “frog’’ study  
 - **Waris Quamer** – ParlerTTS quantization, audio evaluation, report integration  
 
